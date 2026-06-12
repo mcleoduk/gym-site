@@ -203,7 +203,7 @@ nav.scrolled {
 .pricing-card {
   background: var(--surface); border: 1px solid var(--border);
   padding: 32px 24px; position: relative;
-  display: flex; flex-direction: column; min-height: 460px;
+  display: flex; flex-direction: column; min-height: 560px;
 }
 .plan-features { flex: 1; }
 .pricing-card.featured { border-color: var(--gold); }
@@ -282,7 +282,7 @@ blockquote {
 .cta-banner {
   position: relative; min-height: 600px;
   display: flex; align-items: center;
-  background: url('../images/cta.png') center top/cover no-repeat; overflow: hidden;
+  background: url('../images/cta.png') right center / 55% auto no-repeat, #0d0d0d; overflow: hidden;
 }
 .cta-banner .img-placeholder { position: absolute; inset: 0; }
 .cta-banner::after { content: ''; position: absolute; inset: 0; background: rgba(0,0,0,0.58); }
